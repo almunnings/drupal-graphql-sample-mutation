@@ -87,7 +87,7 @@ class MyMutationProducer extends DataProducerPluginBase implements ContainerFact
     $access = $node->access('update', $this->currentUser, TRUE);
     $context->addCacheableDependency($access);
 
-    if ($access->isForbidden()) {
+    if (!$access->isAllowed()) {
       return NULL;
     }
 
