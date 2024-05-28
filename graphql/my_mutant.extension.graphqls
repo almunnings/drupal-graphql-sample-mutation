@@ -1,0 +1,6 @@
+extend type Mutation {
+  """
+  Example node mutation
+  """
+  myMutation(data: MyMutationData!): NodeUnion!
+}

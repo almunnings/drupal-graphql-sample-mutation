@@ -1,0 +1,7 @@
+name: 'GraphQL Mutation Example'
+type: module
+description: 'A sample module for a slack question'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - graphql:graphql

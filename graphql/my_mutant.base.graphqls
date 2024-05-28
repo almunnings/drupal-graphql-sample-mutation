@@ -1,0 +1,14 @@
+"""
+Example mutation input for the my_mutation_producer.
+"""
+input MyMutationData {
+  """
+  The id of the node
+  """
+  id: ID!
+
+  """
+  The new title of the node
+  """
+  title: String!
+}
