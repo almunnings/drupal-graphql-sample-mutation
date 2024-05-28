@@ -12,7 +12,7 @@ use Drupal\graphql\Plugin\GraphQL\SchemaExtension\SdlSchemaExtensionPluginBase;
  * @SchemaExtension(
  *   id = "my_mutant",
  *   name = "Example extension",
- *   description = "A simple extension that adds node related fields.",
+ *   description = "A simple extension to mutate a node.",
  *   schema = "graphql_compose"
  * )
  */
