@@ -70,7 +70,7 @@ class MyMutationProducer extends DataProducerPluginBase implements ContainerFact
    *   The cache context.
    *
    * @return \Drupal\node\NodeInterface|null
-   *   The created comment.
+   *   The edited node.
    *
    * @throws \GraphQL\Error\UserError
    *   Validation error.
